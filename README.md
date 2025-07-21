@@ -5,12 +5,18 @@
 - Amalia Martín 
 - Carlos Toro
 
+
 ## Descripción del Problema y Datos
-### Problema
-Breve descripción del problema de clasificación binaria abordado en el proyecto.
+
+### Objetivos
+El objetivo de esta practica es implementar todo lo aprendido a lo largo de este módulo, para ello necesitaremos diseñar e implementar un sistema automático que:
+- Entrene, evalúe y compare distintos modelos de clasificación binaria
+- Seleccione el mejor modelo según una métrica principal, además de ofrecer una visión de
+  otras secundarias.
+- Automatice el flujo completo desde los datos hasta la inferencia.
 
 ### Datos
-- Origen de los datos.
+- Origen de los datos: proporcionados en un csv `data/dataset_practica_final`
 - Descripción de las características (variables).
 - Variable objetivo y su significado.
 
@@ -22,5 +28,5 @@ Breve descripción del problema de clasificación binaria abordado en el proyect
 ### Pasos
 1. **Clonar el Repositorio:**
    ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
-   cd tu_repositorio
+   git clone https://github.com/
+   cd repositorio
