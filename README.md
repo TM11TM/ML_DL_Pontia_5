@@ -1,32 +1,37 @@
-# ML_DL_Pontia_5
-# Proyecto de Clasificación Binaria
+# 🤖 ML_DL_Pontia_5
+# 📊 Proyecto de Clasificación Binaria
 
-## Autores
-- Amalia Martín 
-- Carlos Toro
+## 👥 Autores
+-  Amalia Martín  
+-  Carlos Toro
 
+---
 
-## Descripción del Problema y Datos
+## 🎯 Descripción del Problema y Datos
 
-### Objetivos
-El objetivo de esta practica es implementar todo lo aprendido a lo largo de este módulo, para ello necesitaremos diseñar e implementar un sistema automático que:
-- Entrene, evalúe y compare distintos modelos de clasificación binaria
-- Seleccione el mejor modelo según una métrica principal, además de ofrecer una visión de
-  otras secundarias.
-- Automatice el flujo completo desde los datos hasta la inferencia.
+### ✅ Objetivos
+El objetivo de esta práctica es implementar todo lo aprendido a lo largo del módulo. Para ello, diseñamos e implementamos un sistema automático que:
 
-### Datos
-- Origen de los datos: proporcionados en un csv `data/dataset_practica_final`
-- Descripción de las características (variables).
-- Variable objetivo y su significado.
+- 🔁 Entrene, evalúe y compare distintos modelos de **clasificación binaria**.
+- 🏆 Seleccione el mejor modelo según una **métrica principal**, mostrando también otras secundarias.
+- ⚙️ Automatice el flujo completo desde los datos hasta la inferencia.
 
-## Instrucciones para Ejecutar el Proyecto
-### Requisitos
-- Python version 3.11
-- Bibliotecas requeridas (detalladas en `requirements.txt`)
+### 🧾 Datos
+- 📁 Origen de los datos: archivo CSV proporcionado → `data/dataset_practica_final`
+- 📊 Descripción de características: (se detallan en el informe).
+- 🎯 Variable objetivo: Binaria (`0` o `1`) — representa la clase a predecir.
 
-### Pasos
-1. **Clonar el Repositorio:**
+---
+
+## 🛠️ Instrucciones para Ejecutar el Proyecto
+
+###  Requisitos
+- 🐍 Python versión 3.11
+- 📦 Librerías necesarias (ver `requirements.txt`)
+
+### Pasos para ejecución
+
+1. **📥 Clonar el repositorio:**
    ```bash
-   git clone https://github.com/
+   git clone https://github.com/usuario/repositorio.git
    cd repositorio
