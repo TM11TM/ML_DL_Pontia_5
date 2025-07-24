@@ -3,7 +3,7 @@ annotated-types==0.7.0
 appnope==0.1.4
 asttokens==3.0.0
 astunparse==1.6.3
-blis==1.2.1
+blis
 catalogue==2.0.10
 certifi==2025.4.26
 charset-normalizer==3.4.2
