@@ -59,9 +59,9 @@ Después de probar los diferentes modelos hemos decidido que el mejor es el mode
 | Modelo                 | Accuracy  | Precisión | Recall    | F1-Score  | AUC       |
 | ---------------------- | --------- | --------- | --------- | --------- | --------- |
 | Regresión Logística    | 0.758     | 0.655     | 0.254     | 0.366     | 0.756     |
-| Árbol de Decisión      | 0.757     | 0.638     | 0.253     | 0.362     | 0.757     |
-| Random Forest          | 0.757     | 0.638     | 0.253     | 0.362     | 0.757     |
-| **XGBoost**            | **0.783** | **0.681** | **0.399** | **0.503** | **0.802** |
+| Árbol de Decisión      | 0.703     | 0.468     | 0.473     | 0.470     | 0.634     |
+| Random Forest          | 0.757     | 0.581     | 0.443     | 0.503     | 0.757     |
+| **XGBoost**            | **0.783** | **0.666** | **0.419** | **0.515** | **0.802** |
 | Red Neuronal Multicapa | 0.780     | 0.676     | 0.386     | 0.491     | 0.802     |
 
 **¿Por qué hemos elegido XGBoost?**
