@@ -26,7 +26,7 @@ El objetivo de esta práctica es implementar todo lo aprendido a lo largo del m�
 ## 🛠️ Instrucciones para Ejecutar el Proyecto
 
 ###  Requisitos
-- 🐍 Python versión 3.11
+- 🐍 Python versión 3.9
 - 📦 Librerías necesarias (ver `requirements.txt`)
 
 ### Pasos para ejecución
