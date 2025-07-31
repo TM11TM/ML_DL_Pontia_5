@@ -130,6 +130,7 @@ celerybeat.pid
 # Environments
 .env
 .venv
+.env-entrega-final/
 env/
 venv/
 venv_master/

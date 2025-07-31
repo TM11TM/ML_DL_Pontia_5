@@ -5,9 +5,10 @@
 Los roles dentro de nuestro equipo son los siguientes:
 
 - **Amalia Martin:**
-  - Modelos :
-  - Evaluación :
-  - Automatización : ...
+  - Modelos : red neuronal multicapa
+  - Evaluación : red neuronal multicapa
+  - Desarrollo : análisis exploratorio de datos
+
 - **Carlos Toro:**
   - Modelos : regresión lineal, árbol de decisión, Random Forest, XGBoost
   - Evaluación : regresión lineal, árbol de decisión, Random Forest, XGBoost
@@ -15,41 +16,19 @@ Los roles dentro de nuestro equipo son los siguientes:
 
 Ambos nos hemos dividido de manera que cada uno pueda abordar todos los aspectos del proyecto, para asegurarnos de aplicar todos los conceptos que hemos aprendido en clase.
 
+Además, durante una llamada poníamos en común la parte que había hecho cada uno para que quedara claro a la otra parte la forma en la que se había hecho y por qué.
+
 **Justificación del problema 🎯**
 
 El problema que estamos abordando con este dataset es calcular cuántas personas cancelan sus reservas en un hotel. Este dataset contiene todos los datos necesarios para analizar y determinar las razones por las cuales alguien decide cancelar su reserva.
 
 **Análisis exploratorio de datos 📊**
-EDA ...
 
-**Diseño del sistema 🖥️**
+El análisis exploratorio de datos (EDA) realizado sobre el dataset aportado ha permitido comprender la estructura y calidad de los datos, así como identificar patrones relevantes para la modelización.
 
-El proyecto está estructurado de la siguiente manera:
+Se han realizado varias fases diferenciadas: primero se realizó la carga y revisión inicial de los datos, seguida del tratamiento de valores nulos y la reducción de variables irrelevantes. Posteriormente se analizó la variable objetivo y se clasificaron los tipos de variables presentes. Se identificaron y trataron outliers, se estudió la distribución y correlación de las variables, y finalmente se guardó el dataset procesado para su uso en el modelado.
 
-```pyhthon
-ML_DL_PONTIA_5/
-	│
-	├── /data
-	│   ├── dataset_hotel_preprocessed.csv
-		├── dataset_practica_final
-		└── resultado_modelos
-	├── /env-entrega-final                        # Entorno virtual
-	├── /notebooks
-	    ├──  dl_ml.ipynb
-		└──  EDA.ipynb
-	├──	/process_hotel_model
-		├── config.py
-		├── trainer.py
-		├── data_loader.py
-		├── preprocess.py
-		├── model.py
-		├── metrics.py
-	├── /models
-	│   └── modelo_random_forest.pkl
-	├── requirements.txt
-	├── Informe Final
-	└── README.md
-```
+El tratamiento de los datos realizado en base a las conclusiones vistas en el análisis ha permitido preparar un conjunto de datos robusto y adecuado para la aplicación de modelos de clasificación binaria, asegurando la calidad y relevancia de las variables seleccionadas.
 
 **Resultados y elección final 🌟**
 Después de probar los diferentes modelos hemos decidido que el mejor es el modelo de **XGBoost**
@@ -66,9 +45,9 @@ Después de probar los diferentes modelos hemos decidido que el mejor es el mode
 
 **¿Por qué hemos elegido XGBoost?**
 
-La métrica mas determinante de nuestros modelos es el F1-score, al ser la media de recall (el cual es alto, lo que nos permite identificar un mayor porcentaje de reservas que se cancelarán) y precisión. XGBoost tiene además mayor accuracy y AUC a parte del F1-score, lo cual hace que sean las mejores métricas obtenidas de todos los modelos.
+La métrica más determinante de nuestros modelos es el F1-score, al ser la media de recall (el cual es alto, lo que nos permite identificar un mayor porcentaje de reservas que se cancelarán) y precisión. XGBoost tiene además mayor accuracy y AUC a parte del F1-score, lo cual hace que sean las mejores métricas obtenidas de todos los modelos.
 
-Aunque la red neuronal multicapa también tiene métricas buenas, XGBoost las supera y además suele ser mas rápido de entrenar y ajustar que la red neuronal.
+Aunque la red neuronal multicapa también tiene métricas buenas, XGBoost las supera y además suele ser más rápido de entrenar y ajustar que la red neuronal.
 
 En resumen XGBoost balancea bien la detección de cancelaciones que si son cancelaciones (cancelaciones reales) sin generar excesivos errores, lo cual a un hotel o cadena de hoteles le permite reducir mucho las cancelaciones.
 
